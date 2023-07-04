@@ -1,0 +1,38 @@
+body{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #00aaff, #00ff6c);
+}
+.container{
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 260px;
+    min-width: 260px;
+}
+.button{
+    background-color: antiquewhite;
+    text-decoration: solid;
+    text-align: center;
+    width: 65px;
+    font-weight: normal;
+    height: 85px;
+    padding: 0px;
+    border: 2px solid #f0baba;
+    border-radius: 12%;
+
+    
+}
+.display{
+    width: 253px;
+    height: 33px;
+    font-size: 1.3em;
+    text-align: end;
+    border: 2px solid #f0baba;
+    border-radius: 11px;
+    background-color: #fefefe;
+}
